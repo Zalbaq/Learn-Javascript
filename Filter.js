@@ -21,3 +21,6 @@ console.log(countryEndByia);
 
 let countriesHaveFiveLetters = country.filter((country) => country.length == 5); // => length untuk mengecek panjang dari item country
 console.log(countriesHaveFiveLetters);
+
+let logNamesCountry = country.filter((country) => country.length > 5);
+console.log(logNamesCountry);
